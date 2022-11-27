@@ -10,4 +10,4 @@ paloalto = {
 net_connect = ConnectHandler(**paloalto)
 output = net_connect.send_command(command_string="show system info",expect_string=r">")
 print(output)
-net_connect.disconnet()
+net_connect.disconnect()
